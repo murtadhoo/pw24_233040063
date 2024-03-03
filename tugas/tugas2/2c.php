@@ -22,11 +22,11 @@
 
 <body>
     <?php
-    for ($i = 10; $i >= 10; $i--) {
-        for ($x = 1; $$x <= $i; $x++) {
+    for ($i = 10; $i >= 0; $i--) {
+        for ($x = 1; $x <= $i; $x++) {
             echo '<div class="kotak">' . $x . '</div>';
         }
-        echo "<br/>";
+        echo "<br>";
     }
     ?>
 </body>
