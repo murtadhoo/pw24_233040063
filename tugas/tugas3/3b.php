@@ -10,4 +10,4 @@ function urutanAngka($angka)
     }
 }
 
-echo urutanangka(8);
+echo urutanangka(10);
